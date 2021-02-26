@@ -14,7 +14,7 @@ public class CheckTheStateOFXY {
             System.out.println("Koordinātas " + "(" + (xSize) + ";" + (ySize) + ")" + "atrodas uz figūras līnijas!");
         } else if (xSize < -2 || xSize > 3 || ySize < -4 || ySize > 1) {
             System.out.println("Koordinātas " + "(" + (xSize) + ";" + (ySize) + ")" + "atrodas figūras ārpusē!");
-        } else if (xSize < 3 && xSize > -2 || ySize < 1 && ySize > -4) {
+        } else {
             System.out.println("Koordinātas " + "(" + (xSize) + ";" + (ySize) + ")" + "atrodas figūras iekšienē!");
         }
     }
