@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class CheckTheStateOfXy {
     public static void main(String[] args) {
-        System.out.print("Lūdzu ievadīt X koordināti :");
+        System.out.print("Lūdzu ievadīt X koordināti: ");
         Scanner scanner = new Scanner(System.in);
         int xSize = scanner.nextInt();
-        System.out.print("Lūdzu ievadīt Y koordināti :");
+        System.out.print("Lūdzu ievadīt Y koordināti: ");
         int ySize = scanner.nextInt();
         scanner.close();
         if ((xSize == -2 && ySize == 1) || (xSize == 3 && ySize == 1) || (xSize == 3 && ySize == -4) || (xSize == -2 && ySize == -4)) {
