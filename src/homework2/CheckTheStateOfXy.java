@@ -2,7 +2,7 @@ package homework2;
 
 import java.util.Scanner;
 
-public class CheckTheStateOFXY {
+public class CheckTheStateOfXy {
     public static void main(String[] args) {
         System.out.print("Lūdzu ievadīt X koordināti :");
         Scanner scanner = new Scanner(System.in);
