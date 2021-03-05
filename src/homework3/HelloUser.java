@@ -9,8 +9,7 @@ public class HelloUser {
         String name = scanner.next();
         String surname = scanner.next();
         scanner.close();
-        System.out.printf("'%s'\n", name.substring(0, 1).toUpperCase() + name.substring(1));
+        System.out.printf("'%s'\n", name.substring(0,1).toUpperCase() + name.substring(1).toLowerCase());
         System.out.printf("'%s'", surname.toUpperCase());
-
     }
 }
