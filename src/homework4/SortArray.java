@@ -17,7 +17,7 @@ public class SortArray {
         Random random = new Random();
         int[] array = new int[number];
         for (int i = 0; i < number; i++) {
-            array[i] = random.nextInt(100);
+            array[i] = random.nextInt(90)+10;
         }
         System.out.println(Arrays.toString(array));
         for (int i = array.length - 1; i > 0; i--) {
